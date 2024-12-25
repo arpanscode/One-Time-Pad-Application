@@ -23,7 +23,7 @@ public class HelloController {
     @FXML
     private ImageView pt_browse, key_browse, cp_browse;
     @FXML
-    private Text cp_label, pt_label, key_label, statText;
+    private Text cp_label, pt_label, key_label, statText, functext;
     private static Stage theStage;
     private String fileExtension;
     private  static int state = 1;
@@ -204,7 +204,7 @@ public class HelloController {
 
     private void setEncryption()
     {
-        toggleFunc.setText("Encrypting");
+        functext.setText("Encrypting...");
         state = 2;
         //decrypt related:
         decrypt.setDisable(true);
@@ -235,7 +235,7 @@ public class HelloController {
 
     private void setDecryption()
     {
-        toggleFunc.setText("Decrypting");
+        functext.setText("Decrypting...");
         state = 1;
         //decrypt related:
         decrypt.setDisable(false);

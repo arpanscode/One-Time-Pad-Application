@@ -13,11 +13,23 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="234.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.one_time_pad.HelloController">
    <children>
-      <ToggleButton fx:id="toggleFunc" layoutX="487.0" layoutY="8.0" maxHeight="10.0" mnemonicParsing="false" onAction="#onToggle" prefHeight="10.0" text="encrypting">
+      <ToggleButton fx:id="toggleFunc" layoutX="418.0" layoutY="6.0" maxHeight="10.0" mnemonicParsing="false" onAction="#onToggle" prefHeight="10.0">
          <padding>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../toggle.png" />
+               </image>
+            </ImageView>
+         </graphic>
       </ToggleButton>
+      <Text fx:id="functext" layoutX="452.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Encrypting" wrappingWidth="103.04840087890625">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
       <Button fx:id="encrypt" alignment="CENTER" layoutX="484.0" layoutY="171.0" mnemonicParsing="false" onAction="#onEncryptClick" text="Encrypt">
          <graphic>
             <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
