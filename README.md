@@ -9,6 +9,7 @@ Below is how the pair of the Apps work:
 The Encryptor
 -----------------
 The Encryptor takes the plain text input and outputs the cipher text and the key to your desired output folder. The plain text can be a file of ANY Type.
+
 ![encryptor](https://github.com/user-attachments/assets/b83a42fb-bafa-40f1-a095-e316429bb18d)
 
 
@@ -16,4 +17,5 @@ The Encryptor takes the plain text input and outputs the cipher text and the key
 The Decryptor
 ----------------------
 The Decryptor takes the cipher text and the key as input and outputs the original file to your desired output folder.
+
 ![decryptor](https://github.com/user-attachments/assets/2e7e57ee-6a4c-4962-944d-59be4aa4d53d)
